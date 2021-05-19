@@ -1,38 +1,55 @@
-.App {
+body {
+  background-color: #121212;
+  color: #fff;
+}
+.crypto-search {
+  margin: auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crypto-search h1 {
+  font-size: 36px;
+}
+.crypto-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.crypto-input:focus,
+.crypto-input:active {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.table-container {
+  overflow-x: auto;
+  vertical-align: top;
+}
+table {
+  width: 100%;
+  overflow-x: scroll;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: left;
+}
+table tr {
+  margin: 5rem 0rem 5rem 0rem;
+  border-bottom: 1px solid #fff;
+}
+tr th {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tbody {
+  color: #fff9;
 }

@@ -1,0 +1,15 @@
+img {
+  width: 2.5rem;
+}
+h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+tr {
+  border-top: 2px solid #fff;
+}
+tr td {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
